@@ -175,6 +175,7 @@ p {
 .icon-header {
   margin-right: 10px;
   fill: currentColor;
+  vertical-align: middle;
 }
 
 .adress-link:focus,
@@ -411,7 +412,6 @@ p {
 .container.footer {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
 }
 
 .footer-adress .post {
