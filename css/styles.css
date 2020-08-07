@@ -45,10 +45,15 @@ p {
 }
 
 .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -58,8 +63,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(47, 48, 58, 0.4);
-  /* padding: 200px 450px; */
-  padding: 200px 20%;
 }
 
 .list {
